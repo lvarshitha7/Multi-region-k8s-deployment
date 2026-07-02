@@ -161,44 +161,7 @@ AWS Route53 (DNS)
 - Total workers per region: 2 nodes = 4 vCPU, 16 GB RAM
 - Both regions combined (if active): up to ~8,000 concurrent users
 - No CPU credit throttling — m7i-flex runs at 100% baseline always
-
----
-
-## 📸 Screenshots
-
-### Architecture
-![Architecture](screenshots/arch.png)
-
-### Cluster Nodes — Virginia
-![Virginia Nodes](screenshots/cluster-nodes-virginia.png)
-
-### Cluster Nodes — Mumbai
-![Mumbai Nodes](screenshots/cluster-nodes-mumbai.png)
-
-### Pods Running
-![Pods](screenshots/pods-running.png)
-
-### Services
-![Services](screenshots/services-running.png)
-
-### Ingress
-![Ingress](screenshots/ingress-running.png)
-
-### ALB — Virginia (Healthy)
-![ALB Virginia](screenshots/alb-virginia-healthy.png)
-
-### ALB — Mumbai (Healthy)
-![ALB Mumbai](screenshots/alb-mumbai-healthy.png)
-
-### Route53 Records
-![Route53](screenshots/route53-records.png)
-
-### Route53 Health Checks
-![Health Checks](screenshots/route53-healthchecks.png)
-
-### Application Running in Browser
-![App](screenshots/app-running-browser.png)
-
+  
 ---
 
 ## Key Learnings
@@ -213,18 +176,6 @@ AWS Route53 (DNS)
   Deployments and Services is the foundation of modern cloud-native architecture
 
 ---
-
-## Author
-
-**Your Name**
-- GitHub: [@srinivas-choudarapu](https://github.com/srinivas-choudarapu)
-- Docker Hub: [chsrinivas55](https://hub.docker.com/u/chsrinivas55)
-
----
-
-## 📄 License
-
-This project is for educational purposes.
 
 
 
